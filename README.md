@@ -39,7 +39,9 @@ Welcome to my portfolio! I am a Business/Data Analyst with 4+ years of experienc
   - Tools: SQL, Excel, Visio, Jira
 
 
-## [View Repository]: https://github.com/ganeshpendem01/ganeshpendem01.github.io
+## View Repository
+
+Git repo: https://github.com/ganeshpendem01/ganeshpendem01.github.io
 
 
 ## Contact
