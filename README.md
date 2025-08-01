@@ -11,6 +11,15 @@ Welcome to my portfolio! I am a Business/Data Analyst with 4+ years of experienc
 - Experience: Worked at RanshCorp, Hyper Space IT, and Agile IT Services.
 - Goal: Seeking Business/Data Analyst roles.
 
+## Education
+
+- Master of Science in Management Science with Business Analytics                                                       
+New Jersey Institute of Technology (NJIT), Newark, NJ  2022-2023
+
+- Bachelor of Technology in Branch                                                                                                                  
+Jawaharlal Nehru Institute of Technology, Kakinada, AP, India, 2017-2020
+
+
 ## SKILLs
   - Programming & Query Languages: SQL, DAX, Python
   - Data Visualization Tools: Power BI, Tableau, Microsoft Excel, Google Analytics 
