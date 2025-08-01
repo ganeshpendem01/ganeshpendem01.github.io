@@ -14,7 +14,7 @@ Projects
   - Description: Developed a Power BI dashboard to analyze 150+ rows of patient data, fixing empty KPIs (e.g., HighCostVisits from 1 to 20, TotalCost to ~$49,850) using DAX and data validation.
   - Tools: Power BI, Python (Pandas, NumPy), SQL.
   - 
-  - [View Repository](https://github.com/ganeshpendem01/Healthcare_Analytics_Portfolio)
+  - [View Repository]https://github.com/ganeshpendem01/ganeshpendem01.github.io
 - **Future Projects**:
 
 ## Contact
