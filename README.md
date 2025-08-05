@@ -43,6 +43,10 @@ Jawaharlal Nehru Institute of Technology, Kakinada, AP, India, 2017-2020
   - Description: Designed ETL data pipelines with Power Query and SQL, reducing manual reporting effort by 50% and ensuring data consistency for real-time analytics.
   - Tools: Power BI, SQL, Power Query, ETL Processes
 
+- Insurance Claims Analysis Dashboard
+  - Description: Developed a Power BI dashboard to analyze 120+ rows of insurance claim data, optimizing visualizations like a pie chart for fraud suspect distribution (20% fraud rate) and a bar chart for regional claim totals using DAX and data cleaning.
+  - Tools: Power BI, Python (Pandas, NumPy), SQL.
+
 - Business Requirements Documentation
   - Description: Crafted BRDs and functional specs using SQL and Excel, reducing decision-making errors by 15% through data-driven insights and stakeholder collaboration.
   - Tools: SQL, Excel, Visio, Jira
