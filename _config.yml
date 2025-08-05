@@ -1,22 +1,2 @@
-```yaml
----
-title: Ganesh Pendem - Business & Data Analyst Portfolio
-description: Professional portfolio showcasing Ganesh Pendem's expertise in Business and Data Analysis.
-url: "https://ganeshpendem01.github.io"
-baseurl: ""
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-sass:
-  sass_dir: _sass
-  style: compressed
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-exclude:
-  - Gemfile
-  - Gemfile.lock
----
-```
+title: Ganesh Pendem - Business / Data Analyst Portfolio
+theme: jekyll-theme-minimal
