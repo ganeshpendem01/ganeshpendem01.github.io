@@ -54,10 +54,10 @@ Jawaharlal Nehru Institute of Technology, Kakinada, AP, India, 2017-2020
 
 ## View Repository
 
-Git repo: https://github.com/ganeshpendem01/ganeshpendem01.github.io
+  - Git repo: https://github.com/ganeshpendem01/ganeshpendem01.github.io
 
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/pendemganesh356/
+- LinkedIn: https://www.linkedin.com/in/ganeshpendem-analytics/
 - Email: ganeshpendem01@gmail.com
