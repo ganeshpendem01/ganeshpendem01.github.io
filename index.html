@@ -12,17 +12,21 @@
         .project-card { transition: transform 0.3s; }
         .project-card:hover { transform: scale(1.05); }
     </style>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Ganesh Pendem – Business Analyst & Data Analyst with 4+ years of experience in SQL, Power BI, Python, and Healthcare Analytics.">
+    <meta name="keywords" content="Business Analyst, Data Analyst, SQL, Power BI, Python, Healthcare Analytics">
+    <meta name="author" content="Ganesh Pendem">
 </head>
 <body class="bg-gray-100">
     <!-- Navigation Bar -->
-    <nav class="navbar bg-blue-900 text-white p-4 shadow-md">
+    <nav class="navbar bg-blue-900 text-white p-4 shadow-md" aria-label="Main Navigation">
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-bold">Ganesh Pendem</h1>
             <div class="space-x-4">
                 <a href="#home" class="hover:text-blue-300">Home</a>
                 <a href="#about" class="hover:text-blue-300">About</a>
                 <a href="#skills" class="hover:text-blue-300">Skills</a>
-                <a href="#experience" class="hover:text-blue-300">Projects</a>
+                <a href="#projects" class="hover:text-blue-300">Projects</a>
                 <a href="#education" class="hover:text-blue-300">Education</a>
                 <a href="#contact" class="hover:text-blue-300">Contact</a>
             </div>
@@ -31,13 +35,13 @@
 
     <!-- Home Section -->
     <section id="home" class="section bg-blue-800 text-white py-20">
-        <div class="container mx-auto flex items-center">
-            <div class="w-1/8 p-2">
-                <img src="images/profile.jpg" alt="Ganesh Pendem Professional Headshot" class="rounded-full w-full max-w-xs">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="w-full md:w-1/4 p-2 flex justify-center">
+                <img src="images/profile.jpg" alt="Ganesh Pendem - Professional Headshot" class="rounded-full w-48 h-48 object-cover">
             </div>
-            <div class="w-7/8 p-4 text-left">
+            <div class="w-full md:w-3/4 p-4 text-left">
                 <h1 class="text-4xl font-bold mb-2">Ganesh Pendem</h1>
-                <p class="text-xl mb-4">Business/Data Analyst</p>
+                <p class="text-xl mb-4">Business & Data Analyst</p>
                 <p class="text-lg">Specializing in healthcare analytics and data pipelines with 4+ years of experience in Power BI, SQL, and Python.</p>
                 <a href="#contact" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get in Touch</a>
             </div>
@@ -49,7 +53,9 @@
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
             <p class="text-lg text-gray-700 leading-relaxed">
-                Welcome to my portfolio! I am a Business/Data Analyst with 4+ years of experience in Power BI, SQL, and Python, specializing in healthcare analytics and data pipelines. Certifications: SQL, PMI-ACP, Python PCAP. Experience: Worked at RanshCorp, Hyper Space IT, and Agile IT Services. Goal: Seeking Business/Data Analyst roles.
+                Welcome to my portfolio! I am a Business/Data Analyst with 4+ years of experience in Power BI, SQL, and Python, specializing in healthcare analytics and data pipelines. 
+                I hold certifications in SQL, PMI-ACP, and Python PCAP. My professional journey includes roles at RanshCorp, Hyper Space IT, and Agile IT Services. 
+                I am passionate about solving business challenges through data and currently seeking Business/Data Analyst opportunities.
             </p>
         </div>
     </section>
@@ -111,11 +117,10 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-xl font-semibold mb-2">Other</h3>
+                    <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
                     <ul class="list-disc pl-6 text-gray-700">
-                        <li>Business Requirement Documentation</li>
-                        <li>Gap Analysis</li>
-                        <li>Stakeholder Collaboration</li>
+                        <li>Stakeholder Engagement</li>
+                        <li>Cross-functional Team Collaboration</li>
                     </ul>
                 </div>
             </div>
@@ -123,7 +128,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="experience" class="section py-16 bg-white">
+    <section id="projects" class="section py-16 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
             <div class="space-y-8">
@@ -132,18 +137,18 @@
                     <h3 class="text-2xl font-semibold mb-2">Healthcare Analytics Dashboard</h3>
                     <p class="text-gray-600 mb-2">Developed a Power BI dashboard to analyze 150+ rows of patient data, fixing empty KPIs (e.g., HighCostVisits from 1 to 20, TotalCost to ~$49,850) using DAX and data validation.</p>
                     <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: Power BI, Python (Pandas, NumPy), SQL.</li>
+                        <li>Tools: Power BI, Python (Pandas, NumPy), SQL</li>
                     </ul>
-                    <img src="healthcare_pbi.jpg" alt="Healthcare Analytics Dashboard" class="mt-4 rounded">
+                    <img src="healthcare_pbi.jpg" alt="Healthcare Analytics Power BI Dashboard with KPI Metrics" class="mt-4 rounded" loading="lazy">
                 </div>
                 <!-- Financial Analytics Dashboard -->
                 <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
                     <h3 class="text-2xl font-semibold mb-2">Financial Analytics Dashboard</h3>
-                    <p class="text-gray-600 mb-2">Developed Power BI dashboards to track portfolio performance, using DAX and SQL to analyze financial data, improving defect identification by 25% during UAT.</p>
+                    <p class="text-gray-600 mb-2">Built Power BI dashboards to track portfolio performance, using DAX and SQL to analyze financial data, improving defect identification by 25% during UAT.</p>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>Tools: Power BI, SQL, DAX, Excel, Jira</li>
                     </ul>
-                    <img src="financial_pbi.jpg" alt="Financial Analytics Dashboard" class="mt-4 rounded">
+                    <img src="financial_pbi.jpg" alt="Financial Data Analytics Dashboard Power BI Visualization" class="mt-4 rounded" loading="lazy">
                 </div>
                 <!-- Data Pipeline Optimization -->
                 <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
@@ -156,16 +161,16 @@
                 <!-- Insurance Claims Analysis Dashboard -->
                 <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
                     <h3 class="text-2xl font-semibold mb-2">Insurance Claims Analysis Dashboard</h3>
-                    <p class="text-gray-600 mb-2">Developed a Power BI dashboard to analyze 120+ rows of insurance claim data, optimizing visualizations like a pie chart for fraud suspect distribution (20% fraud rate) and a bar chart for regional claim totals using DAX and data cleaning.</p>
+                    <p class="text-gray-600 mb-2">Developed a Power BI dashboard to analyze 120+ rows of insurance claim data, optimizing fraud detection visualization (20% fraud rate) and regional claim distributions using DAX and data cleaning.</p>
                     <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: Power BI, Python (Pandas, NumPy), SQL.</li>
+                        <li>Tools: Power BI, Python (Pandas, NumPy), SQL</li>
                     </ul>
-                    <img src="Insurance_pbi.jpg" alt="Insurance Claims Analysis Dashboard" class="mt-4 rounded">
+                    <img src="Insurance_pbi.jpg" alt="Insurance Claims Power BI Dashboard showing fraud analysis" class="mt-4 rounded" loading="lazy">
                 </div>
                 <!-- Business Requirements Documentation -->
                 <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
                     <h3 class="text-2xl font-semibold mb-2">Business Requirements Documentation</h3>
-                    <p class="text-gray-600 mb-2">Crafted BRDs and functional specs using SQL and Excel, reducing decision-making errors by 15% through data-driven insights and stakeholder collaboration.</p>
+                    <p class="text-gray-600 mb-2">Created BRDs and functional specs using SQL and Excel, reducing decision-making errors by 15% through data-driven insights and stakeholder collaboration.</p>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>Tools: SQL, Excel, Visio, Jira</li>
                     </ul>
@@ -181,16 +186,14 @@
             <div class="space-y-4">
                 <div>
                     <h3 class="text-xl font-semibold">Education</h3>
-                   <ul> 
-                       <li class="text-gray-700">
-                        Master of Science in Management Science with Business Analytics<br>
-                        <b>New Jersey Institute of Technology (NJIT), Newark, NJ  2022-2023</b>
-                       </li> 
-                    </ul>
-                        <ul> 
+                    <ul> 
                         <li class="text-gray-700">
-                            Bachelor of Technology in Branch<br>
-                            <b>Jawaharlal Nehru Institute of Technology, Kakinada, AP, India, 2017-2020</b>
+                            Master of Science in Management Science with Business Analytics<br>
+                            <b>New Jersey Institute of Technology (NJIT), Newark, NJ — 2022-2023</b>
+                        </li> 
+                        <li class="text-gray-700 mt-2">
+                            Bachelor of Technology in Computer Science & Engineering<br>
+                            <b>Jawaharlal Nehru Technological University, Kakinada, AP, India — 2017-2020</b>
                         </li>
                     </ul>
                 </div>
@@ -212,9 +215,9 @@
             <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
             <p class="text-lg mb-4">Interested in collaborating on business or data analytics projects? Reach out!</p>
             <p class="text-lg mb-2">Email: <a href="mailto:ganeshpendem01@gmail.com" class="underline">ganeshpendem01@gmail.com</a></p>
-            <p class="text-lg mb-2">Phone Number: <a href="contact:+1 (484) 683-8250" class="underline">+1 (484) 683-8250</a></p>
-            <p class="text-lg mb-4">LinkedIn: <a href="https://www.linkedin.com/in/ganeshpendem-analytics/" class="underline">ganeshpendem-analytics</a></p>
-            <p class="text-lg mb-4">GitHub Repository: <a href="https://github.com/ganeshpendem01/ganeshpendem01.github.io" class="underline">ganeshpendem01.github.io</a></p>
+            <p class="text-lg mb-2">Phone: <a href="tel:+14846838250" class="underline">+1 (484) 683-8250</a></p>
+            <p class="text-lg mb-4">LinkedIn: <a href="https://www.linkedin.com/in/ganeshpendem-analytics/" class="underline">linkedin.com/in/ganeshpendem-analytics</a></p>
+            <p class="text-lg mb-4">GitHub: <a href="https://github.com/ganeshpendem01/ganeshpendem01.github.io" class="underline">github.com/ganeshpendem01</a></p>
         </div>
     </section>
 
@@ -224,12 +227,3 @@
     </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
