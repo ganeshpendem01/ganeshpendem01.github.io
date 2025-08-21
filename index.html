@@ -5,60 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganesh Pendem Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
     <style>
         body { font-family: 'Arial', sans-serif; }
         .section { scroll-margin-top: 80px; }
         .navbar { position: sticky; top: 0; z-index: 1000; }
         .project-card { transition: transform 0.3s, box-shadow 0.3s; }
-        .project-card:hover { transform: scale(1.05); box-shadow: 0 15px 25px rgba(0,0,0,0.2); }
-        .skill-card { transition: transform 0.3s, background-color 0.3s; }
-        .skill-card:hover { transform: translateY(-5px); background-color: rgba(59, 130, 246,0.1); }
-        .gradient-btn { background-image: linear-gradient(to right, #2563EB, #4F46E5); }
-        .gradient-btn:hover { background-image: linear-gradient(to right, #4F46E5, #2563EB); }
+        .project-card:hover { transform: scale(1.05); box-shadow: 0 20px 25px -5px rgba(30, 58, 138, 0.4), 0 10px 10px -5px rgba(30, 58, 138, 0.2); }
     </style>
-    <!-- SEO Meta Tags -->
     <meta name="description" content="Portfolio of Ganesh Pendem – Business Analyst & Data Analyst with 4+ years of experience in SQL, Power BI, Python, and Healthcare Analytics.">
     <meta name="keywords" content="Business Analyst, Data Analyst, SQL, Power BI, Python, Healthcare Analytics">
     <meta name="author" content="Ganesh Pendem">
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-50">
 
     <!-- Navigation Bar -->
-    <nav class="navbar bg-blue-900 text-white p-4 shadow-md" aria-label="Main Navigation">
+    <nav class="navbar bg-blue-900 text-white p-4 shadow-lg" aria-label="Main Navigation">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Ganesh Pendem</h1>
+            <h1 class="text-2xl font-bold text-white">Ganesh Pendem</h1>
             <div class="space-x-4">
-                <a href="#home" class="hover:text-blue-300">Home</a>
-                <a href="#about" class="hover:text-blue-300">About</a>
-                <a href="#skills" class="hover:text-blue-300">Skills</a>
-                <a href="#projects" class="hover:text-blue-300">Projects</a>
-                <a href="#education" class="hover:text-blue-300">Education</a>
-                <a href="#contact" class="hover:text-blue-300">Contact</a>
+                <a href="#home" class="hover:text-sky-400">Home</a>
+                <a href="#about" class="hover:text-sky-400">About</a>
+                <a href="#skills" class="hover:text-sky-400">Skills</a>
+                <a href="#projects" class="hover:text-sky-400">Projects</a>
+                <a href="#education" class="hover:text-sky-400">Education</a>
+                <a href="#contact" class="hover:text-sky-400">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="section bg-gradient-to-r from-blue-700 via-blue-900 to-indigo-900 text-white py-20" data-aos="fade-up">
+    <section id="home" class="section bg-gradient-to-r from-blue-800 to-indigo-600 text-white py-20">
         <div class="container mx-auto flex flex-col md:flex-row items-center">
             <div class="w-full md:w-1/4 p-2 flex justify-center">
-                <img src="images/profile.jpg" alt="Ganesh Pendem - Professional Headshot" class="rounded-full w-48 h-48 object-cover shadow-lg">
+                <img src="images/profile.jpg" alt="Ganesh Pendem - Professional Headshot" class="rounded-full w-48 h-48 object-cover border-4 border-sky-400 shadow-lg">
             </div>
             <div class="w-full md:w-3/4 p-4 text-left">
                 <h1 class="text-4xl font-bold mb-2">Ganesh Pendem</h1>
                 <p class="text-xl mb-4">Business & Data Analyst</p>
-                <p class="text-lg mb-4">Specializing in healthcare analytics and data pipelines with 4+ years of experience in Power BI, SQL, and Python.</p>
-                <a href="#contact" class="mt-6 inline-block gradient-btn text-white px-6 py-3 rounded shadow-lg hover:shadow-xl transition">Get in Touch</a>
+                <p class="text-lg">Specializing in healthcare analytics and data pipelines with 4+ years of experience in Power BI, SQL, and Python.</p>
+                <a href="#contact" class="mt-6 inline-block bg-teal-500 text-white px-6 py-3 rounded hover:bg-teal-600 shadow-md transition-colors">Get in Touch</a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section py-16 bg-white" data-aos="fade-up">
+    <section id="about" class="section py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center border-b-4 border-blue-600 inline-block pb-2">About Me</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mt-6">
+            <h2 class="text-3xl font-bold mb-6 text-center text-blue-900">About Me</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
                 Welcome to my portfolio! I am a Business/Data Analyst with 4+ years of experience in Power BI, SQL, and Python, specializing in healthcare analytics and data pipelines. 
                 I hold certifications in SQL, PMI-ACP, and Python PCAP. My professional journey includes roles at RanshCorp, Hyper Space IT, and Agile IT Services. 
                 I am passionate about solving business challenges through data and currently seeking Business/Data Analyst opportunities.
@@ -67,20 +61,20 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section py-16 bg-gray-100" data-aos="fade-up">
+    <section id="skills" class="section py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center border-b-4 border-blue-600 inline-block pb-2">Technical Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in">
-                    <h3 class="text-xl font-semibold mb-2">Programming & Query Languages</h3>
+            <h2 class="text-3xl font-bold mb-6 text-center text-indigo-700">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Programming & Query Languages</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>SQL</li>
                         <li>DAX</li>
                         <li>Python</li>
                     </ul>
                 </div>
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in" data-aos-delay="100">
-                    <h3 class="text-xl font-semibold mb-2">Data Visualization Tools</h3>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Data Visualization Tools</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>Power BI</li>
                         <li>Tableau</li>
@@ -88,15 +82,15 @@
                         <li>Google Analytics</li>
                     </ul>
                 </div>
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in" data-aos-delay="200">
-                    <h3 class="text-xl font-semibold mb-2">Project Management Tools</h3>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Project Management Tools</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>Jira</li>
                         <li>Visio</li>
                     </ul>
                 </div>
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in" data-aos-delay="300">
-                    <h3 class="text-xl font-semibold mb-2">Documentation & Requirement Analysis</h3>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Documentation & Requirement Analysis</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>BRD</li>
                         <li>FRD</li>
@@ -104,16 +98,16 @@
                         <li>RTM</li>
                     </ul>
                 </div>
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in" data-aos-delay="400">
-                    <h3 class="text-xl font-semibold mb-2">Methodologies</h3>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Methodologies</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>Agile</li>
                         <li>ETL Processes</li>
                         <li>User Acceptance Testing (UAT)</li>
                     </ul>
                 </div>
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in" data-aos-delay="500">
-                    <h3 class="text-xl font-semibold mb-2">Business Analysis Techniques</h3>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Business Analysis Techniques</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>GAP Analysis</li>
                         <li>SWOT Analysis</li>
@@ -122,8 +116,8 @@
                         <li>Feasibility Analysis</li>
                     </ul>
                 </div>
-                <div class="skill-card p-4 bg-white rounded-lg shadow-md hover:shadow-xl" data-aos="zoom-in" data-aos-delay="600">
-                    <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Collaboration</h3>
                     <ul class="list-disc pl-6 text-gray-700">
                         <li>Stakeholder Engagement</li>
                         <li>Cross-functional Team Collaboration</li>
@@ -134,45 +128,10 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section py-16 bg-white" data-aos="fade-up">
+    <section id="projects" class="section py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center border-b-4 border-blue-600 inline-block pb-2">Projects</h2>
-            <div class="space-y-8 mt-8">
-                <!-- Repeat your project cards as before with data-aos="fade-up" -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section py-16 bg-gray-100" data-aos="fade-up">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center border-b-4 border-blue-600 inline-block pb-2">Education & Certifications</h2>
-            <div class="space-y-4 mt-6">
-                <!-- Education and Certifications as before -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section py-16 bg-gradient-to-r from-blue-700 via-blue-900 to-indigo-900 text-white text-center" data-aos="fade-up">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 border-b-4 border-white inline-block pb-2">Get in Touch</h2>
-            <p class="text-lg mb-4 mt-4">Interested in collaborating on business or data analytics projects? Reach out!</p>
-            <p class="text-lg mb-2">Email: <a href="mailto:ganeshpendem01@gmail.com" class="underline">ganeshpendem01@gmail.com</a></p>
-            <p class="text-lg mb-2">Phone: <a href="tel:+14846838250" class="underline">+1 (484) 683-8250</a></p>
-            <p class="text-lg mb-2">LinkedIn: <a href="https://www.linkedin.com/in/ganeshpendem-analytics/" class="underline">linkedin.com/in/ganeshpendem-analytics</a></p>
-            <p class="text-lg mb-2">GitHub: <a href="https://github.com/ganeshpendem01/ganeshpendem01.github.io" class="underline">github.com/ganeshpendem01</a></p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-4 text-center">
-        <p>&copy; 2025 Ganesh Pendem. All rights reserved.</p>
-    </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({ duration: 1000, once: true });
-    </script>
-</body>
-</html>
+            <h2 class="text-3xl font-bold mb-6 text-center text-indigo-700">Projects</h2>
+            <div class="space-y-8">
+                <!-- Each project remains intact but card hover and shadow enhanced -->
+                <div class="project-card bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-500">
+                    <h3 class="text-2xl font-semibold mb-2 text-blue-900">Healthcare Analytics Dashboard</h3>
