@@ -1,5 +1,5 @@
 Ganesh Pendem - Business / Data Analyst Portifolio
-![Profile Photo](images/profile.jpg)
+![Profile Photo](profile.jpg)
 
 Welcome to my portfolio! I am a Business/Data Analyst with 4+ years of experience in Power BI, SQL, and Python, specializing in healthcare analytics and data pipelines.
 
