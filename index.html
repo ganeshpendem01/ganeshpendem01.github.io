@@ -1,249 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganesh Pendem Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
-        .section { scroll-margin-top: 80px; }
-        .navbar { position: sticky; top: 0; z-index: 1000; }
-        .project-card { transition: transform 0.3s, box-shadow 0.3s; }
-        .project-card:hover { transform: scale(1.03); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
-        .skill-card { transition: transform 0.3s, box-shadow 0.3s; }
-        .skill-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
-        .gradient-btn { background: linear-gradient(90deg, #3b82f6, #2563eb); transition: background 0.3s; }
-        .gradient-btn:hover { background: linear-gradient(90deg, #2563eb, #1d4ed8); }
-        a { transition: color 0.3s; }
-    </style>
-    <!-- SEO Meta Tags -->
-    <meta name="description" content=" Portfolio of Ganesh Pendem – Business Analyst / Data Analyst with around 5 years of experience in SQL, Power BI, Python, and Analytics.">
-    <meta name="keywords" content="Business Analyst, Data Analyst, SQL, Power BI, Python, Financial, and Healthcare Analytics">
-    <meta name="author" content="Ganesh Pendem">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganesh Pendem | Java Backend Developer</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+.section { scroll-margin-top: 80px; }
+.navbar { position: sticky; top: 0; z-index: 1000; }
+.project-card { transition: 0.3s; }
+.project-card:hover { transform: scale(1.03); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+.skill-card:hover { transform: translateY(-5px); }
+.gradient-btn { background: linear-gradient(90deg, #3b82f6, #2563eb); }
+.gradient-btn:hover { background: linear-gradient(90deg, #2563eb, #1d4ed8); }
+</style>
+
+<meta name="description" content="Ganesh Pendem – Java Backend Developer with 4+ years experience in Spring Boot, Microservices, AWS.">
+<meta name="keywords" content="Java Developer, Spring Boot, Microservices, AWS, Backend Developer">
+
 </head>
+
 <body class="bg-gray-100">
 
-    <!-- Navigation Bar -->
-    <nav class="navbar bg-blue-900 text-white p-4 shadow-md" aria-label="Main Navigation">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Ganesh Pendem</h1>
-            <div class="space-x-4">
-                <a href="#home" class="hover:text-blue-300">Home</a>
-                <a href="#about" class="hover:text-blue-300">About</a>
-                <a href="#skills" class="hover:text-blue-300">Skills</a>
-                <a href="#projects" class="hover:text-blue-300">Projects</a>
-                <a href="#education" class="hover:text-blue-300">Education</a>
-                <a href="#contact" class="hover:text-blue-300">Contact</a>
-            </div>
-        </div>
-    </nav>
+<!-- NAVBAR -->
+<nav class="navbar bg-blue-900 text-white p-4">
+<div class="container mx-auto flex justify-between">
+<h1 class="text-xl font-bold">Ganesh Pendem</h1>
+<div class="space-x-4">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
 
-    <!-- Home Section -->
-    <section id="home" class="section bg-blue-800 text-white py-20">
-        <div class="container mx-auto flex flex-col md:flex-row items-center">
-            <div class="w-full md:w-1/4 p-2 flex justify-center">
-                <img src="profile.jpg" alt="Ganesh Pendem - Professional Headshot" class="rounded-full w-48 h-48 object-cover shadow-lg">
-            </div>
-            <div class="w-full md:w-3/4 p-4 text-left">
-                <h1 class="text-4xl font-bold mb-2">Ganesh Pendem</h1>
-                <p class="text-xl mb-4">Business Analyst/ Data Analyst</p>
-                <p class="text-lg mb-4">Specializing in Financial and Healthcare analytics and data pipelines with around 5 years of experience in SQL, Power BI, and Python.</p>
-                <a href="#contact" class="gradient-btn mt-6 inline-block text-white px-6 py-3 rounded font-semibold">Get in Touch</a>
-            </div>
-        </div>
-    </section>
+<!-- HOME -->
+<section id="home" class="section bg-blue-800 text-white py-20">
+<div class="container mx-auto flex flex-col md:flex-row items-center">
 
-    <!-- About Section -->
-    <section id="about" class="section py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center shadow-sm inline-block px-4 py-2 rounded bg-gray-100">About Me</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mt-6">
-                Welcome to my portfolio! I am a Business Analyst/ Data Analyst with approximately 5 years of experience specializing in financial and healthcare analytics, data pipeline development, and actionable business insights. 
-                Proficient in SQL, Power BI, and Python, I leverage these tools to solve complex business challenges and drive data-informed decision-making. 
-                I hold certifications in SQL Server Database Fundamentals, PMI Agile Certified Practitioner (PMI-ACP), and Python PCAP, underscoring my commitment to continuous learning and professional growth.
-                My career spans valuable roles at RanshCorp, Hyper Space IT, and Agile IT Services, where I have successfully delivered data-driven solutions and optimized processes.
-                
-            </p>
-        </div>
-    </section>
+<!-- PROFILE IMAGE (2x2 size) -->
+<div class="w-full md:w-1/4 flex justify-center">
+<img src="profile.jpg" class="rounded-full w-32 h-32 object-cover shadow-lg">
+</div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center">Technical Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Programming & Query Languages</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>SQL</li>
-                        <li>DAX</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Data Visualization Tools</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Power BI</li>
-                        <li>Tableau</li>
-                        <li>Microsoft Excel</li>
-                        <li>Google Analytics</li>
-                    </ul>
-                </div>
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Project Management Tools</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Jira</li>
-                        <li>Visio</li>
-                    </ul>
-                </div>
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Documentation & Requirement Analysis</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>BRD</li>
-                        <li>FRD</li>
-                        <li>SRS</li>
-                        <li>RTM</li>
-                    </ul>
-                </div>
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Methodologies</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Agile</li>
-                        <li>ETL Processes</li>
-                        <li>User Acceptance Testing (UAT)</li>
-                    </ul>
-                </div>
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Business Analysis Techniques</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>GAP Analysis</li>
-                        <li>SWOT Analysis</li>
-                        <li>Risk Analysis</li>
-                        <li>Cost-Benefit Analysis</li>
-                        <li>Feasibility Analysis</li>
-                    </ul>
-                </div>
-                <div class="skill-card bg-white p-4 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Stakeholder Engagement</li>
-                        <li>Cross-functional Team Collaboration</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="md:w-3/4 p-4">
+<h1 class="text-4xl font-bold mb-2">Ganesh Pendem</h1>
+<p class="text-xl mb-3">Java Backend Developer | Spring Boot | Microservices</p>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
-            <div class="space-y-8">
-                <!-- Project Cards (kept exactly as your original content) -->
-                <!-- Healthcare Analytics Dashboard -->
-                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-2">Healthcare Analytics Dashboard</h3>
-                    <p class="text-gray-600 mb-2">Developed a Power BI dashboard to analyze 150+ rows of patient data, fixing empty KPIs (e.g., HighCostVisits from 1 to 20, TotalCost to ~$49,850) using DAX and data validation.</p>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: Power BI, Python (Pandas, NumPy), SQL</li>
-                    </ul>
-                    <img src="healthcare_pbi.jpg" alt="Healthcare Analytics Power BI Dashboard with KPI Metrics" class="mt-4 rounded" loading="lazy">
-                </div>
-                <!-- Financial Analytics Dashboard -->
-                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-2">Financial Analytics Dashboard</h3>
-                    <p class="text-gray-600 mb-2">Built Power BI dashboards to track portfolio performance, using DAX and SQL to analyze financial data, improving defect identification by 25% during UAT.</p>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: Power BI, SQL, DAX, Excel, Jira</li>
-                    </ul>
-                    <img src="financial_pbi.jpg" alt="Financial Data Analytics Dashboard Power BI Visualization" class="mt-4 rounded" loading="lazy">
-                </div>
-                <!-- Data Pipeline Optimization -->
-                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-2">Data Pipeline Optimization</h3>
-                    <p class="text-gray-600 mb-2">Designed ETL data pipelines with Power Query and SQL, reducing manual reporting effort by 50% and ensuring data consistency for real-time analytics.</p>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: Power BI, SQL, Power Query, ETL Processes</li>
-                    </ul>
-                </div>
-                <!-- Insurance Claims Analysis Dashboard -->
-                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-2">Insurance Claims Analysis Dashboard</h3>
-                    <p class="text-gray-600 mb-2">Developed a Power BI dashboard to analyze 120+ rows of insurance claim data, optimizing fraud detection visualization (20% fraud rate) and regional claim distributions using DAX and data cleaning.</p>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: Power BI, Python (Pandas, NumPy), SQL</li>
-                    </ul>
-                    <img src="Insurance_pbi.jpg" alt="Insurance Claims Power BI Dashboard showing fraud analysis" class="mt-4 rounded" loading="lazy">
-                </div>
-                <!-- Business Requirements Documentation -->
-                <div class="project-card bg-gray-50 p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-2">Business Requirements Documentation</h3>
-                    <p class="text-gray-600 mb-2">Created BRDs and functional specs using SQL and Excel, reducing decision-making errors by 15% through data-driven insights and stakeholder collaboration.</p>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>Tools: SQL, Excel, Visio, Jira</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<p class="text-lg mb-4">
+Backend Developer with 4+ years of experience building scalable microservices and high-performance applications using Java, Spring Boot, and AWS. Skilled in REST API development, system optimization, and cloud-based deployments.
+</p>
 
-    <!-- Education Section -->
-    <section id="education" class="section py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6 text-center">Education & Certifications</h2>
-            <div class="space-y-4">
-                <div>
-                    <h3 class="text-xl font-semibold">Education</h3>
-                    <ul> 
-                        <li class="text-gray-700">
-                            Master of Science in Management Science with Business Analytics<br>
-                            <b>New Jersey Institute of Technology (NJIT), Newark, NJ — 2022-2023</b>
-                        </li> 
-                        <li class="text-gray-700 mt-2">
-                            Bachelor of Technology in Computer Science & Engineering<br>
-                            <b>Jawaharlal Nehru Technological University, Kakinada, AP, India — 2017-2020</b>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold">Certifications</h3>
-                    <ul class="list-disc pl-6 text-gray-700">
-                        <li>SQL</li>
-                        <li>PMI-ACP</li>
-                        <li>Python PCAP</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<a href="#contact" class="gradient-btn px-6 py-3 rounded text-white font-semibold">Contact Me</a>
+</div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section py-16 bg-blue-800 text-white text-center">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
-            <p class="text-lg mb-4">Interested in collaborating on business or data analytics projects? Reach out!</p>
-            <div class="flex flex-col md:flex-row justify-center gap-6 text-lg">
-                <a href="mailto:ganeshpendem01@gmail.com" class="underline hover:text-blue-200"><i class="fa-solid fa-envelope mr-1"></i>Email: ganeshpendem01@gmail.com</a>
-                <a href="tel:+14846838250" class="underline hover:text-blue-200"><i class="fa-solid fa-phone mr-1"></i>Phone: +1 (484) 683-8250</a>
-                <a href="https://www.linkedin.com/in/ganeshpendem-analytics/" class="underline hover:text-blue-200"><i class="fa-brands fa-linkedin mr-1"></i>LinkedIn</a>
-                <a href="https://github.com/ganeshpendem01/ganeshpendem01.github.io" class="underline hover:text-blue-200"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
-            </div>
-        </div>
-    </section>
+</div>
+</section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-4 text-center">
-        <p>&copy; 2025 Ganesh Pendem. All rights reserved.</p>
-        <a href="#home" class="block mt-2 text-blue-400 hover:text-blue-200">Back to Top</a>
-    </footer>
+<!-- ABOUT -->
+<section id="about" class="section py-16 bg-white text-center px-6">
+<h2 class="text-3xl font-bold mb-6">About Me</h2>
 
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<p class="max-w-4xl mx-auto text-gray-700 text-lg leading-relaxed">
+I am a Java Backend Developer with strong expertise in building scalable, cloud-native applications using Spring Boot and Microservices architecture. 
+I specialize in designing REST APIs, optimizing backend performance, and handling large-scale systems.
+
+I have hands-on experience with AWS services, CI/CD pipelines, and database optimization. I have also worked on integrating Generative AI (RAG, LLM APIs) into backend systems for intelligent automation.
+
+My focus is on writing clean, efficient, and production-ready code.
+</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section py-16 bg-gray-100 px-6">
+<h2 class="text-3xl font-bold text-center mb-10">Technical Skills</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="skill-card bg-white p-4 rounded shadow">
+<h3 class="font-semibold text-lg mb-2">Languages</h3>
+<ul class="list-disc pl-5">
+<li>Java</li>
+<li>SQL</li>
+</ul>
+</div>
+
+<div class="skill-card bg-white p-4 rounded shadow">
+<h3 class="font-semibold text-lg mb-2">Backend</h3>
+<ul class="list-disc pl-5">
+<li>Spring Boot</li>
+<li>Spring</li>
+<li>Hibernate (JPA)</li>
+<li>Microservices</li>
+</ul>
+</div>
+
+<div class="skill-card bg-white p-4 rounded shadow">
+<h3 class="font-semibold text-lg mb-2">Cloud</h3>
+<ul class="list-disc pl-5">
+<li>AWS (S3, EC2, Lambda)</li>
+<li>API Gateway</li>
+<li>RDS</li>
+</ul>
+</div>
+
+<div class="skill-card bg-white p-4 rounded shadow">
+<h3 class="font-semibold text-lg mb-2">DevOps</h3>
+<ul class="list-disc pl-5">
+<li>Jenkins</li>
+<li>Git</li>
+<li>Docker (Basic)</li>
+</ul>
+</div>
+
+<div class="skill-card bg-white p-4 rounded shadow">
+<h3 class="font-semibold text-lg mb-2">Databases</h3>
+<ul class="list-disc pl-5">
+<li>PostgreSQL</li>
+<li>SQL Server</li>
+</ul>
+</div>
+
+<div class="skill-card bg-white p-4 rounded shadow">
+<h3 class="font-semibold text-lg mb-2">Concepts</h3>
+<ul class="list-disc pl-5">
+<li>REST APIs</li>
+<li>Distributed Systems</li>
+<li>Caching</li>
+<li>Performance Optimization</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section py-16 bg-white px-6">
+<h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+<div class="space-y-6 max-w-4xl mx-auto">
+
+<div class="project-card bg-gray-50 p-6 rounded shadow">
+<h3 class="text-xl font-semibold">Banking Microservices System</h3>
+<p>Built scalable microservices using Spring Boot to handle high-volume transactions.</p>
+</div>
+
+<div class="project-card bg-gray-50 p-6 rounded shadow">
+<h3 class="text-xl font-semibold">REST API Development</h3>
+<p>Designed APIs handling thousands of daily requests with improved response time.</p>
+</div>
+
+<div class="project-card bg-gray-50 p-6 rounded shadow">
+<h3 class="text-xl font-semibold">Generative AI Integration</h3>
+<p>Integrated RAG pipelines and LLM APIs for intelligent backend automation.</p>
+</div>
+
+<div class="project-card bg-gray-50 p-6 rounded shadow">
+<h3 class="text-xl font-semibold">CI/CD Automation</h3>
+<p>Implemented Jenkins pipelines to automate deployments and reduce release time.</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section py-16 bg-blue-800 text-white text-center">
+<h2 class="text-3xl font-bold mb-6">Contact</h2>
+
+<p class="mb-4">Let’s connect for backend development opportunities</p>
+
+<div class="space-y-2">
+<p>Email: ganeshpendem01@gmail.com</p>
+<p>Phone: +1 (484) 683-8250</p>
+<p>
+<a href="https://www.linkedin.com/in/ganeshpendem-analytics/" class="underline">LinkedIn</a>
+</p>
+<p>
+<a href="https://github.com/ganeshpendem01" class="underline">GitHub</a>
+</p>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white text-center p-4">
+<p>© 2026 Ganesh Pendem</p>
+</footer>
+
 </body>
 </html>
-
-
-
-
